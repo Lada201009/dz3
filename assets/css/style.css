@@ -48,12 +48,14 @@ button {
   width: 236px;
   border-radius: 30px;
   padding: 16px 0px;
-
   font-family: "Montserrat";
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .btn-1 {
   background-color: var(--second-color);
