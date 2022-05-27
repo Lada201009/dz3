@@ -11,17 +11,23 @@
   <body>
     <header class="container cont-flex">
       <div class="logo">
-        <a href="#"><img src="./assets/css/icon/logo.png" alt="logo"</a>
+        <a href="#"><img class="logo_img" src="./assets/css/icon/logo.png" alt="logo"></a>
       </div>
-      <nav class="menu">
-        <ul class="inner-menu">
-          <li><a class="menu-home" href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Fag</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-    </header>
+      <nav class="dws-menu">
+        <div class="hamburger-menu">
+        <input id="menu_toggle" type="checkbox" />
+        <label class="menu_btn" for="menu_toggle">
+        <span></span></label>  
+        <ul class="menu_box">
+        <li><a class="menu_item menu_home" href="#">Home</a></li>
+        <li><a class="menu_item" href="#">Product</a></li>
+        <li><a class="menu_item" href="#">Fag</a></li>
+        <li><a class="menu_item" href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
     <main>
       <section class="restApp">
         <h3>Restaurant app</h3>
@@ -66,11 +72,11 @@
         </div>
       </section>
     </main>
-    <footer class="container cont-flex">
+    <!-- <footer class="container cont-flex">
       <div class="logo-footer">
         <a href="#"><img src="./assets/css/icon/logo.png" alt="logo"</a>
       </div>
       <p class="size">Copywright 2020 Bella Onojie.com</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
